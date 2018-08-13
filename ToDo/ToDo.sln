@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo", "ToDo\ToDo.csproj", "{21DCC4AB-5091-4925-948D-F5F852FB1441}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Database", "ToDo.Database\ToDo.Database.csproj", "{749F8CA0-A74C-4B04-A944-686CF5A66876}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Entities", "ToDo.Entities\ToDo.Entities.csproj", "{1491BE3E-EF8A-4422-9F67-68A8BE3AEA1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.BusinessLayer", "ToDo.BusinessLayer\ToDo.BusinessLayer.csproj", "{B58E92F9-7A3E-4AA5-A052-E21505265331}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest", "UnitTest\UnitTest.csproj", "{9220D62D-69FC-40B9-AFE2-AEDBC2417C4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Angular", "ToDo.Angular\ToDo.Angular.csproj", "{9E4FDD29-BDE5-4A52-9C7F-FB81CB9CBF3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21DCC4AB-5091-4925-948D-F5F852FB1441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DCC4AB-5091-4925-948D-F5F852FB1441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DCC4AB-5091-4925-948D-F5F852FB1441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DCC4AB-5091-4925-948D-F5F852FB1441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749F8CA0-A74C-4B04-A944-686CF5A66876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749F8CA0-A74C-4B04-A944-686CF5A66876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749F8CA0-A74C-4B04-A944-686CF5A66876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749F8CA0-A74C-4B04-A944-686CF5A66876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1491BE3E-EF8A-4422-9F67-68A8BE3AEA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1491BE3E-EF8A-4422-9F67-68A8BE3AEA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1491BE3E-EF8A-4422-9F67-68A8BE3AEA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1491BE3E-EF8A-4422-9F67-68A8BE3AEA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58E92F9-7A3E-4AA5-A052-E21505265331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58E92F9-7A3E-4AA5-A052-E21505265331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58E92F9-7A3E-4AA5-A052-E21505265331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58E92F9-7A3E-4AA5-A052-E21505265331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9220D62D-69FC-40B9-AFE2-AEDBC2417C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9220D62D-69FC-40B9-AFE2-AEDBC2417C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9220D62D-69FC-40B9-AFE2-AEDBC2417C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9220D62D-69FC-40B9-AFE2-AEDBC2417C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4FDD29-BDE5-4A52-9C7F-FB81CB9CBF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4FDD29-BDE5-4A52-9C7F-FB81CB9CBF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4FDD29-BDE5-4A52-9C7F-FB81CB9CBF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4FDD29-BDE5-4A52-9C7F-FB81CB9CBF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {787E1FC5-EAC8-460B-95E6-E9FA0C4152DD}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://vijaysahu.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ToDo.BusinessLayer\\ToDo.BusinessLayer.csproj
+		SccProjectName1 = ToDo.BusinessLayer
+		SccLocalPath1 = ToDo.BusinessLayer
+		SccProjectUniqueName2 = ToDo.Database\\ToDo.Database.csproj
+		SccProjectName2 = ToDo.Database
+		SccLocalPath2 = ToDo.Database
+		SccProjectUniqueName3 = ToDo.Entities\\ToDo.Entities.csproj
+		SccProjectName3 = ToDo.Entities
+		SccLocalPath3 = ToDo.Entities
+		SccProjectUniqueName4 = ToDo\\ToDo.csproj
+		SccProjectName4 = ToDo
+		SccLocalPath4 = ToDo
+		SccProjectUniqueName5 = UnitTest\\UnitTest.csproj
+		SccProjectName5 = UnitTest
+		SccLocalPath5 = UnitTest
+		SccProjectUniqueName6 = ToDo.Angular\\ToDo.Angular.csproj
+		SccProjectName6 = ToDo.Angular
+		SccLocalPath6 = ToDo.Angular
+	EndGlobalSection
+EndGlobal
